@@ -7,7 +7,7 @@
 \usepackage{amsfonts}
 \usepackage{stmaryrd}
 \usepackage{upgreek}
-\usepackage[pdftex]{hyperref}
+\usepackage{hyperref}
 \usepackage{url}
 
 

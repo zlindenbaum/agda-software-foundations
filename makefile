@@ -2,10 +2,10 @@ default: sf
 
 sf:
 	lhs2TeX --agda Sf.lagda > Sf.tex
-	pdflatex Sf.tex
+	xelatex Sf.tex
 	bibtex Sf.aux
-	pdflatex Sf.tex
-	pdflatex Sf.tex
+	xelatex Sf.tex
+	xelatex Sf.tex
 clean:
 	rm *.tex
 	rm *.pdf
